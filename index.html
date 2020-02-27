@@ -8,6 +8,11 @@
     <title>Document</title>
 </head>
 <body>
+    <crs-designer schema="./node_modules/crs-designer/examples/schemas/templates.json" id="designer"></crs-designer>
+    <custom-items schema="./node_modules/crs-designer/examples/schemas/extension.json" for="designer"></custom-items>
 
+    <script src="./node_modules/crs-binding/crs-binding.js" type="module"></script>
+    <script src="./node_modules/crs-designer/dist/crs-designer.js" type="module"></script>
+    <script src="./node_modules/crs-designer/examples/extensions/custom-items.js" type="module"></script>
 </body>
 </html>
